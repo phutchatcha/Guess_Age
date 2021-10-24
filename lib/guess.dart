@@ -132,6 +132,7 @@ class _guessAgeState extends State<guessAge> {
         setState(() {
           checkAge = true;
         });
+        _showMaterialDialog("ผลการทาย", text);
       } else {
         _showMaterialDialog("ผลการทาย", text);
       }
